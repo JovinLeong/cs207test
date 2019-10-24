@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import doctest
 import sys
+from roots import *
 doctest.testmod(verbose=True)
 
 def test_quadroots():
